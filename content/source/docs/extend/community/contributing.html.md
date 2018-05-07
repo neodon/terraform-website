@@ -193,8 +193,8 @@ easy for anybody to help us improve our docs.
    site immediately, or is it referencing an upcoming version of Terraform and
    should get pushed out with the next release?
    
-As mentioned above, each Terraform Provider has it's own code repository in the
-[Terraform Providers][tfproviders]. Each repository has it's own folder named
+As mentioned above, each Terraform Provider has its own code repository in the
+[Terraform Providers][tfproviders]. Each repository has its own folder named
 `website` that contains that Providers documentation. Updates for documentation
 for a specific provider should be reported or posted there. 
 
@@ -255,7 +255,7 @@ Implementing a new provider gives Terraform the ability to manage resources in
 a whole new API. It's a larger undertaking, but brings major new functionality
 into Terraform.
 
- - [ ] __Minimal initial LOC__: Some providers may be big and it can be
+ - [ ] __Minimal initial LOC__: Some providers may be big, and it can be
    inefficient for both reviewer & author to go through long feedback cycles
    on a big PR with many resources. We encourage you to only submit
    the necessary minimum in a single PR, ideally **just the first resource**
